@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <!-- <link href="/Style.css" rel="stylesheet" type="text/css" /> -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./CSS/product.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <script defer src="./js/product.js"></script>
+  </head>
+  <body>
+    <header class="TopMenu">
+      <figure>
+        <a class="logo" href="./index.html"
+          ><img src="/Images/logo-02.png" alt="Logo" />
+          <p>All about chocolates</p>
+        </a>
+      </figure>
+      <div class="menuSearchBox">
+        <nav class="menuBox">
+          <ul class="menu">
+            <li><a href="#">Christmas</a></li>
+            <li><a href="./our_products.html">Our Products</a></li>
+            <li><a href="/product.html">Product</a></li>
+            <li><a href="/reservation.html">Reservations</a></li>
+            <li id="test"><a href="#">About Us</a></li>
+          </ul>
+        </nav>
+        <form class="searchBox">
+          <input type="search" placeholder=">> Type her <<" />
+          <button>Search</button>
+        </form>
+      </div>
+      <span class="selectlanguage">
+        <figure id="cartImage">
+          <a href="./checkout.html"
+            ><img src="./public/images/Cart-new.png" alt="Cart" />
+            <div id="cartText">0</div>
+          </a>
+        </figure>
+        <select class="language" name="Language">
+          <option value="/api/products/category/chocolate">
+            Content Managment
+          </option>
+          <option value="/api/products/category/ice">Ice cream cake</option>
+          <option value="/api/products/category/service">Service</option>
+          <!-- <option value="/api/products/category/drinks">Drinks</option> -->
+          <!-- <option value="/api/products/category/coffees">Coffees</option> -->
+          <!-- <option value="/api/products/category/chocolate">Chocolate</option> -->
+          <!-- <option value="/api/products">All</option>  -->
+        </select>
+      </span>
+    </header>
+
+    <main class="product-container">
+      <!-- You can write your code here -->
+
+      <header class="product-title">
+        <h2>Lorem, ipsum.</h2>
+      </header>
+      <div class="product-info">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+        asperiores natus corrupti, esse sit nihil porro, sapiente quam veniam
+        distinctio mollitia aspernatur at, iure saepe corporis quod facilis?
+        Dignissimos, laboriosam.
+      </div>
+      <div class="product-images"></div>
+      <form class="order-form">
+        <div class="product-status">
+          <label for="location"><img src="./Images/pin.png" alt="" /></label>
+          <select id="location" name="location">
+            <option value="helsingborg">Helsingborg</option>
+            <option value="stockholm">Stockholm</option>
+          </select>
+        </div>
+        <div class="order-box">
+          <h3 class="product-name">Lorem, ipsum.</h3>
+          <label for="quantity">Amount: </label>
+          <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            min="1"
+            value="1"
+          />
+          <h4 class="product-price"></h4>
+        </div>
+        <button type="submit" class="add-to-cart-button">Add to cart</button>
+      </form>
+      <div class="related-products-section">
+        <h2>Related Products</h2>
+        <template class="related-product-template">
+          <div>
+            <a href="">
+              <img src="" alt="" />
+              <h4 class="related-product-name"></h4>
+              <span class="related-product-price"></span>
+            </a>
+          </div>
+        </template>
+        <div class="related-products"></div>
+      </div>
+      <div class="spacer"></div>
+      <div class="reviews-section">
+        <form action="submit" class="add-review">
+          <div class="new-review-head">
+            <input type="text" name="reviewTitle" id="reviewTitle" />
+            <label for="score">Score:</label>
+            <input
+              type="number"
+              name="score"
+              id="score"
+              min="0"
+              max="5"
+              value="5"
+            />
+          </div>
+          <textarea name="reviewText" id="reviwText" rows="10"></textarea>
+          <button>Submit</button>
+        </form>
+        <template class="review-template">
+          <div class="review">
+            <div class="review-head">
+              <h4>Dummy Review</h4>
+              <span>Score [image?]</span>
+            </div>
+            <div class="review-body">
+              <span class="review-text"> </span>
+            </div>
+          </div>
+        </template>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <form>
+          <label for="sign-up-input">Sign up for our news letter</label>
+          <div>
+            <input
+              id="sign-up-input"
+              name="sign-up-input"
+              type="text"
+              placeholder="Type your email:"
+              required
+            />
+            <button type="submit"></button>
+          </div>
+        </form>
+        <div class="info-container">
+          <div class="info-logo">
+            <img src="./Images/truck.png" title="https://LogoMakr.com" />
+            <img src="./Images/card.png" title="https://LogoMakr.com" />
+            <img src="./Images/express.png" title="https://LogoMakr.com" />
+            <!-- A link (a reference) to LogoMakr.com must be provided  in
+                in order to make the icons legal to use -->
+          </div>
+          <p>Follow us on social media</p>
+          <div class="social-media-logo">
+            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com"><i class="fab fa-google"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <address>
+          <div>
+            <p>Adress:</p>
+            City: <span>Helsingborg</span><br />
+            Street: <span>Södergatan 78</span><br />
+            Zipcode: <span>25227</span><br />
+            Phone number: <span>042-0876</span>
+          </div>
+        </address>
+      </div>
+      <hr />
+      <p class="copyright-text">&copy;Copyright EcChoclate 2021</p>
+    </footer>
+  </body>
+</html>

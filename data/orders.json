@@ -1,0 +1,74 @@
+[
+    {
+        "firstName": "Robin",
+        "lastName": "Hood",
+        "mobilePhoneNumber": "076000095",
+        "email": "mendez@hotmail.com",
+        "address": "Pillgatan 7",
+        "creditCardNumber": "46546768435435",
+        "products": [
+            {
+                "id": 2,
+                "name": "Vibes",
+                "category": "Chocolates",
+                "price": 99,
+                "totalQty": 10,
+                "description": "Example description",
+                "image_path_mobile": "vibes.jpg",
+                "image_path_tablet": "vibes.jpg",
+                "image_path_desktop": "vibes.jpg",
+                "images": ["vibes.jpg"],
+                "quantity": 1
+            },
+            {
+                "id": 3,
+                "name": "Hazelnut Tablet",
+                "category": "Chocolates",
+                "price": 99,
+                "totalQty": 10,
+                "description": "Example description",
+                "image_path_mobile": "hazelnut.jpg",
+                "image_path_tablet": "hazelnut.jpg",
+                "image_path_desktop": "hazelnut.jpg",
+                "images": ["hazelnut.jpg"],
+                "quantity": 3
+            }
+        ]
+    },
+    {
+        "firstName": "Robin",
+        "lastName": "Hood",
+        "mobilePhoneNumber": "076000095",
+        "email": "mendez@hotmail.com",
+        "address": "Pillgatan 7",
+        "creditCardNumber": "46546768435435",
+        "products": [
+            {
+                "id": 2,
+                "name": "Vibes",
+                "category": "Chocolates",
+                "price": 99,
+                "totalQty": 10,
+                "description": "Example description",
+                "image_path_mobile": "vibes.jpg",
+                "image_path_tablet": "vibes.jpg",
+                "image_path_desktop": "vibes.jpg",
+                "images": ["vibes.jpg"],
+                "quantity": 5
+            },
+            {
+                "id": 1,
+                "name": "CB Dulce",
+                "category": "Chocolates",
+                "price": 99,
+                "totalQty": 10,
+                "description": "Example description",
+                "image_path_mobile": "CbDulce.jpeg",
+                "image_path_tablet": "CbDulce.jpeg",
+                "image_path_desktop": "CbDulce.jpeg",
+                "images": ["CbDulce.jpeg"],
+                "quantity": 1
+            }
+        ]
+    }
+]

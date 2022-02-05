@@ -1,0 +1,103 @@
+/*>>>>>>>>>>>>>>>>>>>>>     Main   <<<<<<<<<<<<<<<<<<<<<<<<*/
+main {
+  margin: 1% 0%;
+  padding: 1%;
+  background-color: lavender;
+}
+
+/*>>>>>>     Main Top Section   <<<<<<<*/
+main div:first-child {
+  border: 3px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2%;
+}
+
+main div:first-child article {
+  min-height: 450px;
+  width: 100%;
+  padding: 0% 2% 1% 2%;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 300px;
+}
+
+main div:first-child article button {
+  border-radius: 1pc;
+  outline: none;
+  margin-top: auto;
+}
+
+main div:first-child figure {
+  min-width: 62%;
+  margin: auto;
+  flex: 2 1;
+}
+
+main div:first-child figure img {
+  width: 100%;
+  border-radius: 20px;
+
+  flex: 2 0 300px;
+}
+
+/*>>>>>>     Main midsection   <<<<<<<*/
+main .mainMidle {
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2.2em;
+  margin: 1% 0%;
+}
+
+/*>>>>>>     Main footer   <<<<<<<*/
+
+main div:last-child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+
+  justify-content: space-between;
+}
+
+main div:last-child span {
+  margin-bottom: 1%;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: inherit;
+  flex-direction: column;
+
+  flex: 1 0 250px;
+}
+
+main div:last-child img {
+  width: 100%;
+  margin: 0% auto;
+  border-radius: 20px;
+}
+
+main div:last-child span a {
+  font-size: 1.3em;
+  padding: 2%;
+}
+
+/*>>>>>>>>>>>>  JS <<<<<<<<<<<*/
+
+#form {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+#form input,
+label {
+  font-size: 1.2em;
+}
+
+#form button {
+  outline: none;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Checkout</title>
+        <link rel="stylesheet" href="css/checkout.css" />
+        <script defer src="js/checkout.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>EcChocolate</h1>
+            <h2>My order</h2>
+        </header>
+        <main>
+            <article id="your-information">
+                <h3>Your information</h3>
+                <form>
+                    <section>
+                        <fieldset>
+                            <label for="firstname">First Name</label>
+                            <input
+                                type="text"
+                                id="firstname"
+                                name="firstname"
+                            />
+                        </fieldset>
+                        <fieldset>
+                            <label for="mobile-phone-number"
+                                >Mobile phone number</label
+                            >
+                            <input
+                                type="text"
+                                id="mobile-phone-number"
+                                name="mobile-phone-number"
+                            />
+                        </fieldset>
+                        <fieldset>
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address" />
+                        </fieldset>
+                    </section>
+                    <section>
+                        <fieldset>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname" />
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" />
+                        </fieldset>
+                        <fieldset>
+                            <label for="credit-card-number"
+                                >Credit card number</label
+                            >
+                            <input
+                                type="text"
+                                id="credit-card-number"
+                                name="credit-card-number"
+                            />
+                        </fieldset>
+                    </section>
+                </form>
+            </article>
+            <article id="your-items">
+                <h4>Your items</h4>
+                <ul></ul>
+                <template id="item">
+                    <li>
+                        <img src="" alt="" />
+                        <span id="product-name">Name: </span>
+                        <span id="product-quantity">
+                            Quantity:
+                            <input type="number" value="1" min="1" />
+                        </span>
+                        <span id="product-price">Price: </span>
+                    </li>
+                </template>
+            </article>
+            <article id="pay">
+                <h5>Total amount to pay</h5>
+                <div>
+                    <span>200</span>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <a href="product.html">Product page</a>
+            <p>Do you need help?<br />042-0876</p>
+            <button>Send order</button>
+        </footer>
+    </body>
+</html>

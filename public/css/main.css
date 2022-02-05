@@ -1,0 +1,284 @@
+html {
+  background-color: black;
+}
+
+body {
+  width: 90%;
+  margin: 0% auto;
+}
+/*>>>>>>>>>>>>>>>>>>>>>     General   <<<<<<<<<<<<<<<<<<<<<<<<*/
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  padding: 0.25em 0.75em;
+  text-align: center;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>     Header   <<<<<<<<<<<<<<<<<<<<<<<<*/
+header {
+  padding: 0% 1% 1% 1%;
+  margin-top: 1%;
+  background-color: aliceblue;
+
+  align-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 2%;
+}
+
+/*>>>>>>     Logo   <<<<<<<*/
+header figure {
+  margin: 0% auto;
+  width: 170px;
+}
+header a p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/*>>>>>>     Menu   <<<<<<<*/
+header div {
+  width: 66%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  flex: 1 0 60%;
+}
+header nav ul {
+  padding: 0%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+
+  flex: 1 0 120px;
+}
+
+header nav ul li {
+  width: 100%;
+  margin: 1% auto;
+
+  flex: 1 0 140px;
+}
+
+header nav ul li a {
+  background-color: black;
+  color: white;
+  padding: 0.25em 0%;
+  font-size: 1.2em;
+  border-radius: 1pc;
+  display: inherit;
+}
+
+/*>>>>>>     SearchBox   <<<<<<<*/
+header div form {
+  align-items: center;
+  display: inherit;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+header div form input {
+  border-radius: 1pc;
+  font-size: 1em;
+  padding: 0.25em 0%;
+  text-align: center;
+  outline: none;
+
+  display: inherit;
+  flex: 4 0 300px;
+}
+
+header div form button {
+  outline: none;
+  border-radius: 1pc;
+  flex: 1 0 150px;
+}
+
+/*>>>>>>     Dropdown   <<<<<<<*/
+
+#cartImage {
+  position: relative;
+  float: right;
+  /* margin-bottom: 30%; */
+  outline: none;
+}
+#cartImage img {
+  margin-left: 40%;
+  width: 80px;
+  float: right;
+  margin: 2% 0 6% 0;
+}
+#cartImage div {
+  width: 40px;
+  color: darkred;
+  font-size: 1.2em;
+  font-weight: bolder;
+  position: absolute;
+  top: 25%;
+  left: 70%;
+}
+
+header span {
+  height: 200px;
+  flex-wrap: wrap;
+  flex: 1 0 200px;
+}
+
+header span select {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 0.45em 2%;
+  border-radius: 1pc;
+  font-size: 1em;
+  outline: none;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>> Main <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+main {
+  background-color: lightgray !important;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* Satar Footer */
+
+footer {
+  box-sizing: border-box;
+  background-color: aliceblue;
+  padding-bottom: 20px;
+}
+
+footer form button:after {
+  content: "\279C";
+  color: black;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.footer-container form,
+.footer-container .info-container,
+.footer-container address {
+  width: 33%;
+}
+
+.footer-container form {
+  padding-left: 10px;
+}
+
+.footer-container form div {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #000;
+}
+.footer-container form label {
+  margin-bottom: 10px;
+  display: block;
+}
+.footer-container form div input,
+.footer-container form div button {
+  border: 0;
+  background-color: aliceblue;
+}
+.footer-container form div input {
+  width: 80%;
+  padding-left: 0;
+}
+.footer-container form div input:focus,
+.footer-container form div button:focus {
+  outline: none;
+}
+.footer-container form div button {
+  width: 20%;
+  cursor: pointer;
+}
+
+.footer-container .info-container .info-logo,
+.footer-container .info-container .social-media-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-container .info-container .social-media-logo {
+  font-size: 20px;
+}
+.footer-container .info-container img {
+  height: 40px;
+  width: 45px;
+}
+.footer-container .info-container p {
+  font-size: 13px;
+  text-align: center;
+}
+footer .copyright-text {
+  font-size: 11px;
+  margin: 0;
+  text-align: center;
+}
+footer address p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+footer address span {
+  font-size: 13px;
+}
+footer address div {
+  width: 60%;
+  margin-left: auto;
+}
+footer hr {
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  background-color: #000; /* Modern Browsers */
+  width: 95%;
+}
+.fa-facebook {
+  color: #166fe5;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-google {
+  color: #000;
+}
+
+/* Satar Footer */
+
+/*>>>>>>>>>>>> Responsiv  <<<<<<<<<<<<<<<<<<<*/
+
+footer .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .footer-container form,
+footer .footer-container .info-container,
+footer .footer-container address {
+  width: 400px;
+
+  margin: 1% auto;
+}

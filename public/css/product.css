@@ -1,0 +1,196 @@
+
+/* -- Product Page -- */
+main {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1% 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-container {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "product-title product-title product-title"
+    "product-info product-images order-form"
+    "related-products related-products related-products"
+    "spacer reviews spacer2";
+}
+.product-container > * {
+  /* background-color: rgb(231, 229, 250); */
+  padding: 15px;
+}
+
+.product-container > .product-title {
+  grid-area: product-title;
+  background-color:lightgray !important;
+  padding: 15px 40px;
+  display: block;
+}
+
+.product-container > .product-info {
+  grid-area: product-info;
+  display: block;
+}
+
+.product-container > .product-images {
+  grid-area: product-images;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-container > .product-images > img {
+  max-width: 700px;
+  max-height: 550px;
+  margin: 0 0 5px 0;
+}
+.product-container .preview-container {
+  border: 1px black solid;
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+  align-items: center;
+}
+.product-container .preview-container > img {
+  padding: 5px;
+  max-width: 100px;
+  max-height: 75px;
+  width: 100%;
+  display: block;
+}
+
+.product-container > .order-form {
+  grid-area: order-form;
+  display: block;
+}
+.product-container > .order-form > .product-status {
+  display: flex;
+}
+.product-container > .order-form > .product-status > label {
+  align-self: center;
+}
+.product-container > .order-form > .product-status > label > img {
+  align-self: center;
+}
+.product-container > .order-form > .product-status > select {
+  box-sizing: content-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0px;
+}
+.product-container > .order-form > .order-box {
+  border: 1px black solid;
+  padding: 4px;
+  margin: 2px 0 2px 0;
+  border-radius: 5px;
+  display: block;
+}
+.product-container > .order-form > .order-box > input {
+  box-sizing: border-box;
+  padding: 6px;
+  width: 100%;
+}
+.product-container .product-name, .product-container .product-price {
+  padding-left: 10px;
+}
+
+.product-container > .order-form > .add-to-cart-button {
+  border: solid 1px black;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.product-container > .related-products-section {
+  grid-area: related-products;
+  display: block;
+}
+
+.product-container .related-products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product-container .related-products > div {
+  box-sizing: content-box;
+  width: 200px;
+}
+
+.product-container .related-products img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.product-container .related-products span{
+  text-align: right;
+  width: 100%;
+}
+/* 
+.product-container > .product-title,
+.product-container > .product-info,
+.product-container > .product-images,
+.product-container > .order-form,
+.product-container > .related-products-section {
+  border: 1px solid lightgray;
+} 
+*/
+
+.spacer{
+  grid-area: spacer;
+}
+
+.reviews-section{
+  grid-area: reviews;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.new-review-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews-section input#reviewTitle{
+  width: 50%;
+  margin: 5px 0 5px 0;
+}
+
+.reviews-section textarea{
+
+  width: 100%;
+  display: block;
+}
+
+.reviews-section button{
+  margin-top: 5px;
+}
+
+.review{
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.review-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.review-head > h4{
+  margin: 5px 0 5px 0;
+}
+.review-body{
+  border-top: 1px solid black;
+  padding: 3px;
+}
+
+/* -- End of product page -- */

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="/CSS/reservation.css">
+    <script src="/js/reservation.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="./index.html"><img src="/Images/logo-02.png" alt="Logo">
+            <p>All about chocolates</p>
+        </a>
+
+
+        <div id="itemHolder">
+            <h1>Reservations</h1>
+            <div id="btnPlace">
+                <span>
+                    <button type="submit" id="btnUpdate">Update</button>
+                    <button type="submit" id="btnDelete">Delete</button>
+                    <button type="submit" id="btnAdd">Add Reservation</button>
+                    <a href="/reservation.html"><button type="reset">Reset</button></a>
+                </span>
+
+                <!-- <button type="submit" id="btnDB">Create A Database</button> -->
+                <span>
+                    <br><br> <input id="searchIn" type="search" class="search-button"
+                        placeholder=" Insert your Id here ...">
+                    <button class="search">Search</button>
+                </span>
+            </div>
+        </div>
+        <div id="dbChanger">
+            <select name="dbChanger" id="changer">
+                <option value="id">Change Searching by</option>
+                <option value="id">ID</option>
+                <option value="FullName">FullName</option>
+                <option value="Dates">Date</option>
+            </select>
+        </div>
+
+    </header>
+    <main>
+        <table id="reservation">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>FullName</th>
+                    <th>Guests</th>
+                    <th>Price for 2 guests</th>
+                    <th>Total</th>
+                    <th>Phone</th>
+                    <th>Dates</th>
+                </tr>
+            </thead>
+            <tbody id="resBody">
+
+
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <section id="section">
+
+        </section>
+
+
+        <!-- <form id="dataBase">
+            <Label for="dbName">DataBase Name: </Label>
+            <input name="dbName" type="text"><br>
+            <label for="indexNum">Number of Indexes</label>
+            <input name="indexNum" type="text"><br>
+            <button class="index">Add Indexes</button>
+            <label for="indexName">indexName</label>
+            <input name type="text">
+        </form> -->
+
+    </footer>
+
+</body>
+
+</html>

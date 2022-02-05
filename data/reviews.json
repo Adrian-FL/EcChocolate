@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Great Lemonade",
+    "text": "It's lemony!",
+    "score": 5,
+    "productId": "8"
+  },
+  {
+    "title": "Balls",
+    "text": "They're round",
+    "score": 4,
+    "productId": "7"
+  },
+  {
+    "title": "Juice",
+    "text": "It's orange",
+    "score": "4",
+    "productId": "9"
+  }
+]

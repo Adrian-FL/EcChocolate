@@ -1,0 +1,300 @@
+[
+    {
+        "id": 1,
+        "name": "CB Dulce",
+        "category": "Chocolates",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "CbDulce.jpeg",
+        "image_path_tablet": "CbDulce.jpeg",
+        "image_path_desktop": "CbDulce.jpeg",
+        "images": [
+            "CbDulce.jpeg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Vibes",
+        "category": "Chocolates",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "vibes.jpg",
+        "image_path_tablet": "vibes.jpg",
+        "image_path_desktop": "vibes.jpg",
+        "images":[
+            "vibes.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Hazelnut Tablet",
+        "category": "Chocolates",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "hazelnut.jpg",
+        "image_path_tablet": "hazelnut.jpg",
+        "image_path_desktop": "hazelnut.jpg",
+        "images":[
+            "hazelnut.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Christmas Box Large",
+        "category": "Chocolates",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "christmasBoxLarge.jpg",
+        "image_path_tablet": "christmasBoxLarge.jpg",
+        "image_path_desktop": "christmasBoxLarge.jpg",
+        "images":[
+            "christmasBoxLarge.jpg"
+        ]
+    },
+    
+    {
+        "id": 5,
+        "name": "Handmade Christmas Heart",
+        "category": "Chocolates",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "handmadeChristmasHeart.jpg",
+        "image_path_tablet": "handmadeChristmasHeart.jpg",
+        "image_path_desktop": "handmadeChristmasHeart.jpg",
+        "images":[
+            "handmadeChristmasHeart.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Cosy Winter Wonders",
+        "category": "Chocolates",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "cosyWinterWonders.jpg",
+        "image_path_tablet": "cosyWinterWonders.jpg",
+        "image_path_desktop": "cosyWinterWonders.jpg",
+        "images":[
+            "cosyWinterWonders.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Lindt",
+        "category": "Chocolates",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "lindtMobile.jpg",
+        "image_path_tablet": "lindtTablet.jpg",
+        "image_path_desktop": "lindtDesktop.jpg",
+        "images":[
+            "lindtDesktop.jpg",
+            "lindt_lindor_04.jpg",
+            "lindt_lindor_05.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Limonade",
+        "category": "Drinks",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "limonade.jpg",
+        "image_path_tablet": "limonade.jpg",
+        "image_path_desktop": "limonade.jpg",
+        "images":[
+            "limonade.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Orange",
+        "category": "Drinks",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "orange.jpg",
+        "image_path_tablet": "orange.jpg",
+        "image_path_desktop": "orange.jpg",
+        "images":[
+            "orange.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Juice",
+        "category": "Drinks",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description Fruit frenzy",
+        "image_path_mobile": "juice.jpg",
+        "image_path_tablet": "juice.jpg",
+        "image_path_desktop": "juice.jpg",
+        "images":[
+            "juice.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Affogato",
+        "category": "Coffees",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "affogato.jpg",
+        "image_path_tablet": "affogato.jpg",
+        "image_path_desktop": "affogato.jpg",
+        "images":[
+            "affogato.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Flat white",
+        "category": "Coffees",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "flatWhite (2).jpg",
+        "image_path_tablet": "flatWhite (2).jpg",
+        "image_path_desktop": "flatWhite (2).jpg",
+        "images":[
+            "flatWhite (2).jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Beiers Ice Cream Cake",
+        "category": "Ice",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "ice1.jpg",
+        "image_path_tablet": "ice1.jpg",
+        "image_path_desktop": "ice1.jpg",
+        "images":[
+            "ice1.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Lemon Pie Ice Cream Cake",
+        "category": "Ice",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "ice2.jpg",
+        "image_path_tablet": "ice2.jpg",
+        "image_path_desktop": "ice2.jpg",
+        "images":[
+            "ice2.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Klasisk Ice Cream Cake",
+        "category": "Ice",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "ice3.jpg",
+        "image_path_tablet": "ice3.jpg",
+        "image_path_desktop": "ice3.jpg",
+        "images":[
+            "ice3.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Afternoon-tea",
+        "category": "Service",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "service1.png",
+        "image_path_tablet": "service1.png",
+        "image_path_desktop": "service1.png",
+        "images":[
+            "service1.png"  
+        ]
+    },
+    {
+        "id": 17,
+        "name": "TAPAS",
+        "category": "Service",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "service2.png",
+        "image_path_tablet": "service2.png",
+        "image_path_desktop": "service2.png",
+        "images":[
+            "service2.png"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Brunch",
+        "category": "Service",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "service3.png",
+        "image_path_tablet": "service3.png",
+        "image_path_desktop": "service3.png",
+        "images":[
+            "service3.png"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Christmas Box Large",
+        "category": "Chocolate",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "christmasBoxLarge.jpg",
+        "image_path_tablet": "christmasBoxLarge.jpg",
+        "image_path_desktop": "christmasBoxLarge.jpg",
+        "images":[
+            "christmasBoxLarge.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Handmade Christmas Heart",
+        "category": "Chocolate",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "handmadeChristmasHeart.jpg",
+        "image_path_tablet": "handmadeChristmasHeart.jpg",
+        "image_path_desktop": "handmadeChristmasHeart.jpg",
+        "images":[
+            "handmadeChristmasHeart.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Cosy Winter Wonders for children",
+        "category": "Chocolate",
+        "price": 99,
+        "totalQty": 10,
+        "description": "Example description",
+        "image_path_mobile": "cosyWinterWonders.jpg",
+        "image_path_tablet": "cosyWinterWonders.jpg",
+        "image_path_desktop": "cosyWinterWonders.jpg",
+        "images":[
+            "cosyWinterWonders.jpg"
+        ]
+    }
+]
+    

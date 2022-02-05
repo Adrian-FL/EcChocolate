@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 1% 0;
+    background-color: lightgray;
+}
+
+/* mobile section */
+
+.chocolate,
+.drink,
+.coffee {
+    display: grid;
+    grid-template-areas:
+        "img"
+        "h1";
+}
+
+.chocolate img,
+.drink img,
+.coffee img {
+    grid-area: img;
+    width: 100%;
+}
+
+ul.chocolates,
+ul.drinks,
+ul.coffees {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 5px 5px 5px;
+}
+
+ul.chocolates li,
+ul.drinks li,
+ul.coffees li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+}
+
+ul li a#img-container,
+ul li a#img-container img {
+    width: 100%;
+}
+
+ul li div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+ul li div * {
+    width: calc(100% / 2);
+}
+
+ul li div button {
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+ul li div span {
+    font-weight: 700;
+    text-align: right;
+    font-size: 18px;
+}
+
+ul.info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 5px;
+    background-color: #faf0e6;
+}
+
+ul.info li {
+    display: grid;
+    grid-template-rows: 70% 15% 15%;
+    grid-template-areas: "img" "h2" "hr";
+    justify-items: center;
+}
+
+ul.info li img {
+    grid-area: img;
+    width: 90%;
+}
+
+ul.info li h2 {
+    grid-area: h2;
+    font-size: 10px;
+}
+ul.info li hr {
+    grid-area: hr;
+    width: 50%;
+    height: 0.5px;
+    background-color: orange;
+}
+
+/* Tablet Section */
+
+@media screen and (min-width: 580px) {
+    main ul.chocolates,
+    main ul.drinks,
+    main ul.coffees {
+        grid-gap: 10px;
+    }
+
+    main ul.chocolates,
+    main ul.drinks,
+    main ul.coffees {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main ul li a h3 {
+        height: 40px;
+        font-size: 17px;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    main ul li a img {
+        width: 100%;
+        height: 200px;
+    }
+
+    ul.info {
+        padding: 15px 5px 0px 5px;
+    }
+
+    ul.info li {
+        grid-gap: 3px;
+        align-items: center;
+        grid-template-rows: 60% 20% 20%;
+    }
+
+    ul.info li h2 {
+        font-size: 17px;
+    }
+
+    ul.info li hr {
+        align-self: start;
+    }
+}
+
+/* Tablet Section */
+
+@media screen and (min-width: 960px) {
+    main ul.chocolates,
+    main ul.drinks,
+    main ul.coffees {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    main article.chocolate img,
+    main article.drink img,
+    main article.coffee img {
+        height: 375px;
+    }
+
+    ul.info {
+        height: 200px;
+    }
+
+    ul.info li {
+        grid-gap: 3px;
+        align-items: center;
+        grid-template-rows: 60% 15% 25%;
+    }
+
+    ul.info li img {
+        width: 30%;
+    }
+}
